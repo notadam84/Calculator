@@ -50,8 +50,8 @@ impl Theme {
                 accent: Color32::from_rgb(102, 175, 255),
                 accent_soft: Color32::from_rgba_premultiplied(102, 175, 255, 36),
                 panel: Color32::from_rgba_premultiplied(18, 21, 29, 220),
-                button: Color32::from_rgba_premultiplied(0, 255, 255, 12),
-                operator: Color32::from_rgba_premultiplied(102, 175, 255, 24),
+                button: Color32::from_rgba_premultiplied(32, 39, 55, 235),
+                operator: Color32::from_rgba_premultiplied(42, 104, 190, 235),
             },
             Theme::Emerald => ThemeColors {
                 bg: Color32::from_rgb(3, 10, 9),
@@ -60,8 +60,8 @@ impl Theme {
                 accent: Color32::from_rgb(42, 239, 178),
                 accent_soft: Color32::from_rgba_premultiplied(42, 239, 178, 34),
                 panel: Color32::from_rgba_premultiplied(7, 25, 22, 222),
-                button: Color32::from_rgba_premultiplied(220, 255, 248, 12),
-                operator: Color32::from_rgba_premultiplied(42, 239, 178, 25),
+                button: Color32::from_rgba_premultiplied(18, 43, 39, 235),
+                operator: Color32::from_rgba_premultiplied(10, 133, 99, 235),
             },
             Theme::NeonViolet => ThemeColors {
                 bg: Color32::from_rgb(9, 5, 14),
@@ -70,8 +70,8 @@ impl Theme {
                 accent: Color32::from_rgb(229, 104, 255),
                 accent_soft: Color32::from_rgba_premultiplied(229, 104, 255, 40),
                 panel: Color32::from_rgba_premultiplied(25, 14, 34, 224),
-                button: Color32::from_rgba_premultiplied(252, 230, 255, 12),
-                operator: Color32::from_rgba_premultiplied(229, 104, 255, 25),
+                button: Color32::from_rgba_premultiplied(42, 28, 53, 235),
+                operator: Color32::from_rgba_premultiplied(131, 38, 161, 235),
             },
             Theme::Arctic => ThemeColors {
                 bg: Color32::from_rgb(5, 12, 18),
@@ -80,8 +80,8 @@ impl Theme {
                 accent: Color32::from_rgb(96, 224, 255),
                 accent_soft: Color32::from_rgba_premultiplied(96, 224, 255, 37),
                 panel: Color32::from_rgba_premultiplied(14, 27, 38, 218),
-                button: Color32::from_rgba_premultiplied(230, 249, 255, 14),
-                operator: Color32::from_rgba_premultiplied(96, 224, 255, 27),
+                button: Color32::from_rgba_premultiplied(22, 43, 57, 235),
+                operator: Color32::from_rgba_premultiplied(13, 123, 151, 235),
             },
         }
     }
